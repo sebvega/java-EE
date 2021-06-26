@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28d4e27-832c-418f-a258-231e906adcb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/models/Examen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/repositories/ExamenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/repositories/ExamenRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/repositories/ExamenRepositoryOtro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/repositories/PreguntaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/services/ExamenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/services/ExamenServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/vega/appmockito/examples/services/ExamenServiceImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/vega/appmockito/examples/services/Datos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/repositories/ExamenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vega/appmockito/examples/repositories/ExamenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/vega/appmockito/examples/services/ExamenServiceImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/vega/appmockito/examples/services/ExamenServiceImpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +57,7 @@
       <recent name="org.vega.appmockito.examples.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamenServiceImpTest">
+  <component name="RunManager" selected="JUnit.ExamenServiceImpTest.testPreguntasExamen">
     <configuration name="ExamenServiceImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app-mockito" />
       <extension name="coverage">
@@ -116,8 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExamenServiceImpTest.testPreguntasExamen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app-mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.vega.appmockito.examples.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.vega.appmockito.examples.services" />
+      <option name="MAIN_CLASS_NAME" value="org.vega.appmockito.examples.services.ExamenServiceImpTest" />
+      <option name="METHOD_NAME" value="testPreguntasExamen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExamenServiceImpTest.testPreguntasExamen" />
         <item itemvalue="JUnit.ExamenServiceImpTest" />
         <item itemvalue="JUnit.ExamenServiceImpTest.findExamenPorNombreListaVacia" />
         <item itemvalue="JUnit.ExamenServiceImpTest.findExamenPorNombre" />
